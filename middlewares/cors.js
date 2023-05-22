@@ -1,8 +1,8 @@
 const allowedCors = [
-  '',
-  '',
-  '',
-  '',
+  'https://sdlmdev.movies.nomoredomains.monster',
+  'http://sdlmdev.movies.nomoredomains.monster',
+  'https://api.sdlmdev.movies.nomoredomains.monster',
+  'http://api.sdlmdev.movies.nomoredomains.monster',
   'https://localhost:3000',
   'http://localhost:3000',
 ];
