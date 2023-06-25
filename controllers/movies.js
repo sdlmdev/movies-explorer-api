@@ -6,9 +6,9 @@ const ForbiddenError = require('../errors/ForbiddenError');
 
 const createMovie = async (req, res, next) => {
   try {
-    await Movie.create({ ...req.body, owner: req.user._id });
+    const film = await Movie.create({ ...req.body, owner: req.user._id });
 
-    res.status(201).send({ message: 'Фильм успешно создан.' });
+    res.status(201).send(film);
   } catch (err) {
     if (err instanceof mongoose.Error.ValidationError) {
       next(new BadRequestError('Переданы некорректные данные при создании фильма.'));
