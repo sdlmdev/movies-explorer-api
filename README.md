@@ -24,6 +24,7 @@
 
 ## Установка и запуск проекта:
 * `git clone https://github.com/sdlmdev/movies-explorer-api` - клонирует репозиторий
+* `npm install` - установить зависимости
 * `npm run start` — запускает сервер   
 * `npm run dev` — запускает сервер с hot-reload
 
