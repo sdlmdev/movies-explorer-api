@@ -14,6 +14,8 @@
 * Express
 * MongoDB
 * Mongoose
+* Nginx
+* PM2
 
 ## Ссылки
 * IP 51.250.82.89
