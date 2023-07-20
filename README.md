@@ -1,13 +1,31 @@
 # Api для дипломного проекта курса «Веб-разработчик» от «Яндекс Практикум».
 
 Бэкенд проекта movies-explorer, включающий возможности: авторизации и регистрации пользователей, операции с фильмами и пользователями.
-## Ссылки на проект
 
-IP 51.250.82.89
+## Функциональность
+* Регистрация и авторизация пользователей
+* Получение информации о текущем пользователе
+* Обновление данных пользователя
+* Получение списка фильмов
+* Создание и удаление фильма
 
-Backend https://api.sdlmdev.movies.nomoredomains.monster/
+## Технологии:
+* NodeJS
+* Express
+* MongoDB
+* Mongoose
 
-## Роуты
+## Ссылки
+* IP 51.250.82.89
+* [Репозиторий Frontend](https://github.com/sdlmdev/movies-explorer-frontend)
+* [Проект](https://api.sdlmdev.movies.nomoredomains.monster/)
+
+## Установка и запуск проекта:
+* `git clone https://github.com/sdlmdev/movies-explorer-api` - клонирует репозиторий
+* `npm run start` — запускает сервер   
+* `npm run dev` — запускает сервер с hot-reload
+
+### Роуты
 <table>
   <thead>
     <tr>
@@ -54,9 +72,3 @@ Backend https://api.sdlmdev.movies.nomoredomains.monster/
     </tr>
   </tbody>
 </table>
-
-
-### Запуск проекта
-
-`npm run start` — запускает сервер   
-`npm run dev` — запускает сервер с hot-reload
