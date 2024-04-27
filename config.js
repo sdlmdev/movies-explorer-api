@@ -7,7 +7,7 @@ const {
 
 const config = {
   MONGODB_URI: NODE_ENV === 'production' ? MONGODB_URI : 'mongodb://localhost:27017/bitfilmsdb',
-  PORT: NODE_ENV === 'production' ? PORT : 3000,
+  PORT: NODE_ENV === 'production' ? PORT : 3004,
   JWT_SECRET: NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret',
 };
 

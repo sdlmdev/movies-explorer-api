@@ -1,10 +1,10 @@
 const allowedCors = [
-  'http://sdlmdev.movies.nomoreparties.sbs',
-  'https://sdlmdev.movies.nomoreparties.sbs',
-  'https://api.sdlmdev.movies.nomoredomains.monster',
-  'http://api.sdlmdev.movies.nomoredomains.monster',
-  'https://localhost:3000',
-  'http://localhost:3000',
+  'http://movies.api.sdlmdev.site',
+  'https://movies.api.sdlmdev.site',
+  'http://movies.sdlmdev.site',
+  'https://movies.sdlmdev.site',
+  'https://localhost:3005',
+  'http://localhost:3005',
 ];
 
 module.exports = (req, res, next) => {
